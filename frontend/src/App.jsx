@@ -1,12 +1,17 @@
-function App() {
+import {
+  Navbar,
+  Home,
+} from "./components/index";
 
+
+function App() {
   return (
-    <>
-    <h1 className="text-3xl font-bold text-center m-10">
-       Hello Team Hope
-    </h1>
-    </>
-  )
+    <div className="font-Poppins bg-Solitude">
+      <Navbar />
+      <Home />
+    </div>
+  );
 }
 
-export default App
+
+export default App;
